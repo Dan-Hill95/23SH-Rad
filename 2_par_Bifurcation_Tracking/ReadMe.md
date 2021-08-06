@@ -33,8 +33,11 @@ associated step number, for which every fifth is labelled.
 %% Input:   Continuation_Bif(ContVar,Dir)
 
 %           ContVar                 - Denotes which parameter value in p will be varied during continuation
+
 %           SolnFolder              - This is chosen manually
+
 %           File                    - This is chosen manually, should be close to a change in stability
+
 %           Dir                     - Direction of parameter continuation; must be either 'pl' (plus) or 'mn' (minus).
 
 
@@ -57,4 +60,4 @@ associated step number, for which every fifth is labelled.
 
 %           branch- (Step, Stability, mu, EucNorm(u), L2Norm(u), L2Norm(v), p(ContVar))
 
-% All data is stored in a folder named as "Bif_(Solution Folder)_(Solution File)_(Dir)" 
+% All data is stored in a folder named as "Bif _ (Solution Folder) _ (Solution File) _ (Dir)" 
