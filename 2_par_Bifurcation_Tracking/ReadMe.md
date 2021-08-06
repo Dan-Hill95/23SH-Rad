@@ -42,11 +42,11 @@ associated step number, for which every fifth is labelled.
 
 % Solves the linear stability problem for the stationary axisymmetric 2-3 Swift-Hohenberg equation close to a bifurcation point for some localised radial solution, and then continues the bifurcation point through parameter space. For u(r) that solves
 
-% 0 = F(u) := -(1+d^2_r + 1/r*d_r)^2 u - mu*u + nu*u^2 + kappa*u^3,
+% 0 = F(u) := -(1+d^2_r + 1/r d_r)^2 u - mu u + nu u^2 + kappa u^3,
 
 % we look for a destabilising D_{m} eigenmode v(r) such that,
 
-% 0 = J[u]*v := (-(1+d^2_r + 1/r*d_r - (m/r)^2)^2 - mu + 2*nu*u + 3*kappa*u^2)*v,
+% 0 = J[u] v := (-(1+d^2_r + 1/r d_r - (m/r)^2)^2 - mu + 2 nu u + 3 kappa u^2) v,
 % 0 = |v|^2-1.
 
 % An initial solution [File] is chosen from the data folder [SolnFolder] close to a change in D_{m} stability. Then, the bifurcation point is tracked through parameter space as the parameters mu and p(ContVar) are varied.
